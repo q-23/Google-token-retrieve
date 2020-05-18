@@ -2,5 +2,11 @@
   "name": "fetch_api_keys",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "supertest": "^4.0.2"
+  }
 }
