@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --watch -i"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "dependencies": {
     "express": "^4.17.1",
+    "jest": "^26.0.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "supertest": "^4.0.2"
