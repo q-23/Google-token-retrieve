@@ -12,7 +12,7 @@
     "testEnvironment": "node"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jest": "^26.0.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
